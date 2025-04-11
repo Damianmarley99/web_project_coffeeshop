@@ -24,7 +24,7 @@
 }    
 
 .nav__links {
- font-family: "Inter";
+ font-family: "Inter", Arial, sans-serif;
  font-style: normal;
  font-weight: 500;
  font-size: 16px;
@@ -38,7 +38,7 @@
 }
 
 .header__content_title {
-    font-family: "Inter";
+    font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 58px;
@@ -47,7 +47,7 @@
 }
 
 .header__content_title-blue {
-    font-family: "Noto Serif";
+    font-family: "Noto Serif", 'Times New Roman', Times, serif;
  font-style: italic;
  font-weight: normal;
  font-size: 58px;
@@ -57,23 +57,27 @@
 }
 
 .header__content_description {
- font-family: "Noto Serif";
+ font-family: "Noto Serif", 'Times New Roman', Times, serif;
  font-style: normal;
  font-weight: normal;
  font-size: 20px;
  line-height: 30px;
+ position: absolute;
+ top: 124px;
+ right: 5px;
 }
 
 .header__content_image {
-    position: absolute;
-    size: 646px 568px;
-    top: 124px;
-    right: 5px;
+  size: 646px 568px;
+  position: absolute;
+  top: 124px;
+  right: 5px;
 }
 
 .header__footer {
     margin-top: auto;
-    font-family: "Inter";
+    position: relative;
+    font-family: "Inter", Arial, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -82,6 +86,12 @@
 }
 
 .footer__list {
+    left: 80px;
+    bottom: 40px;
+}
 
+.footer__paragraph {
+    right: 80px;
+    bottom: 40px;
 
 }
