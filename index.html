@@ -29,39 +29,34 @@
           <ul class="nav__links">
             <a class="nav__link" href="#recetas"><li>Recetas</li></a>
             <a class="nav__link" href="#reservar"><li>Reservar una mesa</li></a>
-            <a class="nav__link" href="#"><li>Contactos</li></a>
+            <a class="nav__link" href="#contactos"><li>Contactos</li></a>
           </ul>
         </nav>
-        <div class="header__content">
-          <h1 class="header__title">
-            <span class="title__span-accent">Café de especialidad</span> en
+        <h1 class="header__title">
+            <span class="title-span">Café de especialidad</span> en
             Triple Peaks
-          </h1>
-          <p class="header__description">
+        </h1>
+        <p class="header__description">
             ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
             para darte energía y motivar tu creatividad.
-          </p>
-        </div>
+        </p>
         <img
           class="header__image"
           src="./images/inside_coffee_shop.png"
-          alt="imagen principal cafeteria"
-        />
+          alt="imagen principal cafeteria"/>
         <section class="header__footer">
-          <p class="header__footer-item">Horario:</p>
-          <p class="header__footer-item">
-            Lunes a Viernes (de 10:00h a 19:00h)
-          </p>
-          <p class="header__footer-item">
-            Sábados y Domingos (de 11:00h a 18:00h)
-          </p>
-        </section>
-        <p class="header__footer__paragrap">
-          Avenida del Éxito 200, Ciudad Triple Peaks
-        </p>
+          <div class="header__footer-left">
+            <p class="footer__paragrap">Horario:</p>
+            <p class="footer__paragrap">
+            Lunes a Viernes (de 10:00h a 19:00h)</p>
+            <p class="footer__paragrap">
+            Sábados y Domingos (de 11:00h a 18:00h)</p>
+          </div>
+            <p class="footer__paragrap-right">Avenida del Éxito 200, Ciudad Triple Peaks</p>
+        </section>        
       </header>
       <main class="content">
-        <section class="recipes" id="recetas">
+        <section class="recipes" >
           <div class="recipes__header">
             <h2 class="recipes__title">Recetas</h2>
             <h3 class="recipes__subtitle">
@@ -69,7 +64,7 @@
               tus propios snacks.
             </h3>
           </div>
-          <div class="recipes__videos">
+          <div class="recipes__videos" id="recetas">
             <div class="recipes__video-item">
               <iframe
                 class="recipes__iframe"
@@ -98,7 +93,7 @@
         </section>
         <section class="reservation" id="reservar"></section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="contactos"></footer>
     </div>
   </body>
 </html>
