@@ -105,8 +105,9 @@
   box-sizing: border-box;
   margin-top: auto;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
   width: 100%;
   margin-left: 80px;
 }
@@ -118,6 +119,10 @@
   margin: 0;
   z-index: 1000;
   margin-right: 160px;
+}
+
+.header__footer_right {
+  align-self: flex-end;
 }
 
 .content {
