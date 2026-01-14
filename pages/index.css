@@ -1,5 +1,4 @@
 .page {
-  height: 100vh;
   margin: auto;
   font-family: "Inter", Arial, sans-serif;
   font-size: 16px;
@@ -19,6 +18,7 @@
   min-height: 720px;
   max-height: 800px;
   margin-bottom: 0;
+  height: 100vh;
 }
 
 .nav {
@@ -88,8 +88,8 @@
   line-height: 30px;
   margin-top: 28px;
   max-width: 683px;
-  margin-bottom: 175px;
   margin-left: 80px;
+  margin-bottom: 175px;
 }
 
 .header__image {
@@ -98,40 +98,26 @@
   top: 124px;
   width: 646px;
   height: 568px;
+  margin-bottom: 75px;
 }
 
 .header__footer {
-  min-width: 1100px;
-  max-width: 1600px;
-  display: flex;
-  justify-content: space-around;
-  align-items: baseline;
-  gap: 110px;
-  margin-bottom: 0;
-  padding-left: 80px;
   box-sizing: border-box;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  margin-left: 80px;
 }
 
-.header__footer-left {
-  padding-right: 580px;
-}
-
-.footer__paragrap {
-  margin: 0;
+.header__paragraph {
   font-style: normal;
   font-weight: 500;
   color: #838383;
-}
-
-.footer__paragrap-right {
   margin: 0;
-  font-style: normal;
-  font-weight: 500;
-  color: #838383;
-  z-index: 1;
-  align-self: flex-end;
-  padding-left: 70px;
-  padding-right: 70px;
+  z-index: 1000;
+  margin-right: 160px;
 }
 
 .content {
@@ -147,6 +133,7 @@
   min-height: 720px;
   max-height: 800px;
   position: relative;
+  box-sizing: border-box;
 }
 
 .recipes__header {
