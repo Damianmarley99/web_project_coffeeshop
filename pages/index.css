@@ -68,7 +68,7 @@
   margin-top: 183px;
   margin-left: 80px;
   margin-bottom: 0;
-  }
+}
 
 .title-span {
   font-family: "Noto Serif", "Times New Roman", serif;
@@ -131,9 +131,9 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  }
+}
 
-.recipes { 
+.recipes {
   margin: 0;
   min-height: 720px;
   max-height: 800px;
@@ -200,8 +200,8 @@
 }
 
 .reservation {
-  background-color: #D9E7FF;
-  background-image: url(../images/background_recipes.svg);
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -209,6 +209,10 @@
   min-height: 720px;
   max-height: 800px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;  
 }
 
 .reservation__title {
@@ -217,30 +221,43 @@
   font-size: 44px;
   line-height: 52px;
   margin-top: 100px;
-}
+  margin-bottom: 0;
+  align-self: center;
+    }
 
 .reservation__form {
   box-sizing: border-box;
-}
+  margin-top: 80px;
+  margin-bottom: 120px;
+  align-self: center;
+  }
+
 
 .form__fieldset {
-  margin-top: 80px;
   max-width: 385px;
-
+  
 }
 
 .form__label {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-}
+  margin-bottom: 8px;
+  }
 
 .form__input {
   font-size: 20px;
   line-height: 30px;
-  width: 100%;
   border-radius: 4px;
   height: 60px;
+  padding: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  width: 100%;
+  border-color: #838383;
 }
 
 .form__button {
@@ -248,6 +265,15 @@
   font-size: 16px;
   line-height: 20px;
   border-radius: 4px;
+  background-color: #2f80ed;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+  display: block;
+  max-width: 385px;
+  height: 60px;
+  width: 100%;
 }
 
 .form__button:hover {
@@ -256,4 +282,7 @@
 
 .form__checkbox {
   border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
 }
