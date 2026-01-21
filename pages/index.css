@@ -212,7 +212,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;  
+  align-content: center;
 }
 
 .reservation__title {
@@ -220,24 +220,18 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin-top: 100px auto;
-  margin-bottom: 80px;
+  margin: 0 auto 80px;
   align-self: center;
-    }
+}
 
 .form {
   box-sizing: border-box;
   margin-bottom: 120px auto;
   align-self: center;
-  }
-
-.reservation__form {
-  
 }
 
 .form__fieldset {
   max-width: 385px;
-  
 }
 
 .form__label {
@@ -245,7 +239,7 @@
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 8px;
-  }
+}
 
 .form__input {
   font-size: 20px;
