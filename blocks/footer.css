@@ -46,6 +46,7 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0;
+  padding-bottom: 20px;
 }
 
 .footer__list {
@@ -55,13 +56,29 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  margin: 0;
+  padding: 0;
 }
 
 .list-item {
+  padding-bottom: 16px;
 }
 
 .social__link {
-  padding-top: 16px;
+  margin: 0;
+  padding: 0;
+  background-color: none;
+  transition: background-color 0.5s;
+}
+
+.social__link:hover {
+  background-color: #C1C1C1;
+}
+
+.social-icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
 }
 
 .footer__copyright {
@@ -74,4 +91,5 @@
   margin: 0;
   padding-top: 108px;
   padding-bottom: 60px;
+  padding-left: 80px;
 }
