@@ -1,1 +1,5 @@
-# Triple Espresso
+Cafeteria Tripleten.
+
+Este proyecto contiene una pagina donde puedes haer reservaciones o acceder a las redes sociales de la cafeteria tripleten, tiene una seccion donde puedes ver recetas en video y ademas puedes ver la direccion y horarios de servicio. La pagina cotine enlaces funcionales y puedes acceder a los videos por medio de iframes insertados directamente en la seccion de videos, se uso toda una paleta de colores para darle un estilo propio y funcional a toda la pagina, asi como imagenes de fondo, un frmulario de registro y botones interactivos.
+
+Creo que hay oportunidades de mejora en la pagina de recetas donde se podria poner una lista de videos clasificada en tipos de recetas para tener mas variedad y hacerla mas entretenida, tambien podemos agegar un mapa interactivo para ubicar mucho mas facilmente el punto donde se ubica y por ultimo creo que al llenar el formulario deberia redirigirte a una pagina donde puedas expresar tus gustos y preferencias para asi personalizar mas la experencia y poder usar esta informacion para hacer ajustes y mejoras mas adelante.# Triple Espresso
