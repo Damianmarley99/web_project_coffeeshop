@@ -42,7 +42,7 @@
   z-index: 10000;
 }
 
-.social__heading {
+.footer__social-heading {
   font-family: "Inter";
   font-style: normal;
   font-weight: bold;
@@ -51,7 +51,6 @@
   margin: 0;
   padding-bottom: 20px;
 }
-
 
 .footer__list {
   list-style: none;
@@ -68,8 +67,6 @@
   padding-bottom: 16px;
 }
 
-
-
 .social-link {
   color: #fff;
   text-decoration: none;
@@ -78,7 +75,7 @@
 }
 
 .social-link:hover {
-  color: #C1C1C1;
+  color: #c1c1c1;
 }
 
 .social-icon {
@@ -88,7 +85,7 @@
 }
 
 .social-icon:hover {
-  opacity: 70%;;
+  opacity: 70%;
 }
 
 .footer__copyright {
